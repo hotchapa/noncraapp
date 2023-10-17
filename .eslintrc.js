@@ -34,7 +34,7 @@ module.exports = {
     indent: ["error", 2, { SwitchCase: 1 }],
     quotes: ["error", "double", { avoidEscape: true }],
     semi: ["error", "always"],
-    "prettier/prettier": ["error", { quotes: "double" }],
+    "prettier/prettier": ["error", { quotes: "double", endOfLine: "auto" }],
     "no-empty-function": "off",
     "@typescript-eslint/no-floating-promises": "off",
     "@typescript-eslint/require-await": "off",
